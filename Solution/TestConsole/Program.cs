@@ -22,7 +22,7 @@
             Console.ReadLine();
 
             //ModifyAddress();
-            DeleteAddress();
+            //DeleteAddress();
 
             var userService = new UserService(new Repository<User>(), new Repository<Address>());
             var users = userService.GetUsers().ToList();
